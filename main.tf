@@ -4,7 +4,7 @@ provider "aws"{
   secret_key = "t0K1k5Tx0E+RhkCqmFDXjgaFAHShr1iJslzWocDY"
 }
 
-resource "aws_s3_bucket" {
+resource "aws_s3_bucket" "mybucket"{
      bucket = "faruk6283"
 }
 
